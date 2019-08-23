@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import PrivateRoute from "./components/PrivateRoute.js"; 
-import Color from "./components/Color.js"; 
-
 import Login from "./components/Login";
 import "./styles.scss";
 import BubblePage from "./components/BubblePage.js";
